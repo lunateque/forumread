@@ -5,7 +5,7 @@ description: Use when researching what people actually think about a product, to
 
 # forumread
 
-Read forum opinion without a browser. Reddit is read live via an anonymous guest token with the public archives as fallback. Not installed (`forumread --version` fails)? Follow the Install section of `README.md` at https://github.com/tempoloss/forumread (`uv tool install git+https://github.com/tempoloss/forumread`).
+Read forum opinion without a browser. Reddit is read live via an anonymous guest token with the public archives as fallback. Not installed (`forumread --version` fails)? Follow the Install section of `README.md` at https://github.com/lunateque/forumread (`uv tool install git+https://github.com/lunateque/forumread`).
 
 ## In omp: use the tools
 

@@ -1,6 +1,6 @@
 # forumread
 
-[![CI](https://github.com/tempoloss/forumread/actions/workflows/ci.yml/badge.svg)](https://github.com/tempoloss/forumread/actions/workflows/ci.yml)
+[![CI](https://github.com/lunateque/forumread/actions/workflows/ci.yml/badge.svg)](https://github.com/lunateque/forumread/actions/workflows/ci.yml)
 
 **Forum opinion for AI agents.** Search and read Reddit, Hacker News and Stack Exchange threads as compact, token-budgeted markdown. Stdlib-only Python CLI, plus an omp extension that exposes it as two agent tools.
 
@@ -50,15 +50,15 @@ _Showing 3 of 124 comments, sorted by top (limits: max_comments=3, depth=2)._
 Python 3.10+, no dependencies.
 
 ```
-uv tool install git+https://github.com/tempoloss/forumread
-# or: pipx install git+https://github.com/tempoloss/forumread
+uv tool install git+https://github.com/lunateque/forumread
+# or: pipx install git+https://github.com/lunateque/forumread
 forumread --version
 ```
 
 One-off, without installing:
 
 ```
-uvx --from git+https://github.com/tempoloss/forumread forumread search "uv vs poetry" --source reddit
+uvx --from git+https://github.com/lunateque/forumread forumread search "uv vs poetry" --source reddit
 ```
 
 Optional: `STACKEXCHANGE_KEY=<free stackapps.com app key>` in the environment (see limits below).

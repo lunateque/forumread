@@ -1,5 +1,5 @@
 // Registers forum_search and forum_read: thin wrappers over the `forumread` CLI
-// (https://github.com/tempoloss/forumread, installed with `uv tool install git+https://github.com/tempoloss/forumread`).
+// (https://github.com/lunateque/forumread, installed with `uv tool install git+https://github.com/lunateque/forumread`).
 // Binary: $FORUMREAD_BIN, else `forumread` on PATH (falling back to uv's default tool bin dir).
 
 import { spawn } from "node:child_process";
@@ -61,7 +61,7 @@ function runForumread(args: string[], signal: AbortSignal | undefined): Promise<
       reject(
         new Error(
           error.code === "ENOENT"
-            ? `cannot run '${bin}': not found. Install with: uv tool install git+https://github.com/tempoloss/forumread, or set FORUMREAD_BIN`
+            ? `cannot run '${bin}': not found. Install with: uv tool install git+https://github.com/lunateque/forumread, or set FORUMREAD_BIN`
             : `cannot run '${bin}': ${error.message}`,
         ),
       ),

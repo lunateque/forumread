@@ -15,7 +15,7 @@ from typing import Any
 
 from forumread.cache import Cache
 
-USER_AGENT = "forumread/0.1 (+https://github.com/tempoloss/forumread)"
+USER_AGENT = "forumread/0.1 (+https://github.com/lunateque/forumread)"
 RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
 MAX_RETRY_WAIT = 20.0
 

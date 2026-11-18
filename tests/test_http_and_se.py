@@ -33,7 +33,7 @@ def test_se_gzip_and_html_to_text(monkeypatch, fixtures):
     monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
     thread = stackexchange.fetch_thread("1711631", "stackoverflow")
 
-    assert seen[0].get_header("User-agent").startswith("forumread/0.1")
+    assert seen[0].get_header("User-agent") == "forumread/0.1 (+https://github.com/lunateque/forumread)"
     assert thread.title == "Improve INSERT-per-second performance of SQLite"
     assert [c.score for c in thread.comments] == [887, 180]
     accepted = thread.comments[0]

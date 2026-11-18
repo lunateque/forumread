@@ -28,8 +28,8 @@ forumread = "forumread.__main__:main"
 packages = ["forumread", "forumread.sources"]
 
 [project.urls]
-Homepage = "https://github.com/tempoloss/forumread"
-Issues = "https://github.com/tempoloss/forumread/issues"
+Homepage = "https://github.com/lunateque/forumread"
+Issues = "https://github.com/lunateque/forumread/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
